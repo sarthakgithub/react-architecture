@@ -6,7 +6,7 @@ class MainApp extends React.Component {
   render() {
     return (
       <Router>
-        <NavRoutes />Î
+        <NavRoutes />
       </Router>
     );
   }
