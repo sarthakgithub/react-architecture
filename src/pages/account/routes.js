@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import ComponentA from './components/componenta/index';
-import ComponentB from './components/componentb/index';
+import { Link } from 'react-router-dom';
 
 class AccountRoutes extends React.Component {
   render() {
@@ -15,8 +13,6 @@ class AccountRoutes extends React.Component {
             <Link to="/account/componentb">Component B</Link>
           </li>
         </ul>
-        <Route path="/account/componenta" component={ComponentA} />
-        <Route path="/account/componentb" component={ComponentB} />
       </div>
     );
   }

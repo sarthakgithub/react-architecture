@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import ComponentC from './components/componentc/index';
-import ComponentD from './components/componentd/index';
+import { Link } from 'react-router-dom';
 
 class TransactionRoutes extends React.Component {
   render() {
@@ -15,8 +13,6 @@ class TransactionRoutes extends React.Component {
             <Link to="/transaction/componentd">Component D</Link>
           </li>
         </ul>
-        <Route path="/transaction/componentc" component={ComponentC} />
-        <Route path="/transaction/componentd" component={ComponentD} />
       </div>
     );
   }
